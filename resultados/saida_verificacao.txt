@@ -1,0 +1,23 @@
+# Saída de verificar_tabelas.py. Dados brutos: execução de experimento.py em ambiente Linux (ver Seção 4 do artigo);
+# uma segunda execução completa, feita do zero em 25/11/2026, gerou frentes idênticas nas 30 repetições.
+# Análise e conferência refeitas em Windows 11 (Python 3.13, versões do requirements.txt) em 26/11/2026.
+
+Dados brutos: 30 repetições (sementes 1 a 30)
+
+TABELA 2 - Métricas nas 30 repetições (média ± desvio padrão)
+Métrica                                    NSGA-II            SP-total              SP-11x
+Hipervolume                          0,851 ± 0,043       0,140 ± 0,031       0,882 ± 0,022
+Nº de soluções não dominadas           57,1 ± 14,6           7,2 ± 1,3           7,5 ± 0,7
+Custo mínimo (R$)                      2.103 ± 151         3.644 ± 169          1.687 ± 36
+Tempo médio mínimo (h)                 1,85 ± 0,06         2,90 ± 0,13         1,96 ± 0,06
+Maior lacuna (normalizada)           0,479 ± 0,230       0,911 ± 0,384       0,592 ± 0,027
+
+TABELA 3 - Escolhas do gestor na execução de HV mediano (semente 24, 74 soluções)
+Regra                     Custo (R$/dia)  Tempo (h)      km  Veíc.
+Extremo: menor custo               2.035      13,16     714      1
+(a) Orçamento                      2.946       3,22     778      4
+(b) Prazo                          3.174       2,75     770      5
+(c) Ponto de joelho                2.608       4,25     743      3
+Extremo: menor tempo               4.736       1,80   1.094      8
+
+Conferência com artigo.tex: 20/20 valores idênticos.

@@ -1,0 +1,21 @@
+Repetições: 30 | ideal=[1630.03    1.74] nadir=[4554.09   10.97]
+Método                   HV      nº sol.          custo mín      tempo mín   maior lacuna  %suportadas
+NSGA-II    0.8506±0.0429   57.1±14.6      2103±   151   1.85±0.06  0.479±0.230   19.1
+SP-total   0.1398±0.0309    7.2± 1.3      3644±   169   2.90±0.13  0.911±0.384   73.0
+SP-11x     0.8821±0.0220    7.5± 0.7      1687±    36   1.96±0.06  0.592±0.027   79.0
+NSGA-II: dominadas pela SP-11x 30.9% | não dominadas e não suportadas na união 60.7%
+Mann-Whitney NSGA-II x SP-total [hv]: U=900, p=3.02e-11
+Mann-Whitney NSGA-II x SP-total [n]: U=900, p=2.56e-11
+Mann-Whitney NSGA-II x SP-total [lac]: U=160, p=1.87e-05
+Mann-Whitney NSGA-II x SP-11x [hv]: U=242, p=2.16e-03
+Mann-Whitney NSGA-II x SP-11x [n]: U=900, p=1.68e-11
+Mann-Whitney NSGA-II x SP-11x [lac]: U=430, p=7.73e-01
+
+Execução mediana: seed=24, HV=0.8601, 74 soluções
+  Menor custo  custo=R$  2034.87 tempo=13.16 h km= 713.9 veículos=1
+  Menor tempo  custo=R$  4735.78 tempo= 1.80 h km=1094.3 veículos=8
+  Orçamento    custo=R$  2945.81 tempo= 3.22 h km= 778.3 veículos=4
+  Prazo        custo=R$  3173.82 tempo= 2.75 h km= 769.5 veículos=5
+  Joelho       custo=R$  2608.02 tempo= 4.25 h km= 743.2 veículos=3
+
+Figuras salvas em figuras/
